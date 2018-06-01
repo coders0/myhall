@@ -1,0 +1,7 @@
+<ul *ngFor =" let item of data"  >
+    <div class="distance">  
+        <li> {{item.productName}}  </li> 
+       <li> <a href="#" > <img width="150" height="150" (click)="onSelect(item.productName)" src="{{item.productImage}}"></a>
+        </li>
+    </div>
+</ul>

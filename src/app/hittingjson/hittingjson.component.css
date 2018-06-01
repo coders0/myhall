@@ -1,0 +1,10 @@
+
+
+ul li {
+    list-style:none;
+}
+.distance{
+    float:left;
+    margin-left:100px;
+    margin-right:100px;
+}
